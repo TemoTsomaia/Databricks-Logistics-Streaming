@@ -43,4 +43,6 @@ The pipeline is modularized into five Databricks notebooks for clean execution a
 * Unity Catalog Access Controls (IAM)
 
 ## 🔒 Security Note
-The user and group `innowise` were provisioned manually via the Databricks UI in accordance with security best practices. The explicit `GRANT` statements applying permissions to this group are located in the `IAM config for Logistics` notebook. (See included screenshot for Admin UI validation).
+The user and group `innowise` were provisioned manually via the Databricks UI in accordance with security best practices. The explicit `GRANT` statements applying permissions to this group are located in the `IAM config for Logistics` notebook. (See included screenshot).
+![Group Demonstration](screenshots/Groups_screenshot.png)
+![User Demonstration](screenshots/Innowise_User_screenshot.png)
